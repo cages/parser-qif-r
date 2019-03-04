@@ -1,0 +1,47 @@
+!Type:Bank 
+D1/16'19
+U-18.00
+T-18.00
+N1
+PYARN EMPORIUM
+MNeedles and things
+LKnitting
+^
+D1/16'19
+U-1,234.56
+T-1,234.56
+N2
+PFOOD INC
+MFeb and Mar
+LFood:Groceries
+^
+D1/16'19
+U0.00
+T0.00
+N3
+P**VOID**
+LMisc
+^
+D1/16'19
+U-890.12
+T-890.12
+N4
+PBIG BOX INC
+MLocal Big Box
+LHome
+^
+D1/16'19
+U-543.21
+T-543.21
+N5
+PLITTLE BOX INC
+MMom and Pop stuff
+LHome
+^
+D1/18'19
+U1,000.00
+T1,000.00
+N6
+PTOP RENTAL MANAGEMENT
+LRent
+^

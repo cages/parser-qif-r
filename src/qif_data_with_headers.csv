@@ -1,0 +1,7 @@
+"","date","u_amount","t_amount","check_num","payee","memo","exp_category"
+"1",2019-01-16,-18,-18,"1","YARN EMPORIUM","Needles and things","Knitting"
+"2",2019-01-16,-1234.56,-1234.56,"2","FOOD INC","Feb and Mar","Food:Groceries"
+"3",2019-01-16,0,0,"3","**VOID**","Feb and Mar","Misc"
+"4",2019-01-16,-890.12,-890.12,"4","BIG BOX INC","Local Big Box","Home"
+"5",2019-01-16,-543.21,-543.21,"5","LITTLE BOX INC","Mom and Pop stuff","Home"
+"6",2019-01-18,1000,1000,"6","TOP RENTAL MANAGEMENT","Mom and Pop stuff","Rent"
