@@ -12,7 +12,7 @@ DESCRIPTION
 -----------
 Caution: This is very beta software!
 
-'parseqif` currently reads in a basic qif formatted file.  It parses the
+`parseqif` currently reads in a basic qif formatted file.  It parses the
 account type.  Then it parses each of the records and adds them to a `df`
 dataframe.  Finally it displays the summary stats for the amounts column.
 
