@@ -1,2 +1,0 @@
-- Post to GitHub with GNU-2 LICENSE
-- Ask Ed to review

@@ -6,7 +6,7 @@
 #
 #   This file is part of the Parsers::Parse-Qif-R project
 #
-#   Copyright (C) 2019 dCage
+#   Copyright (C) 2019 DC Slagel
 
 #   This program is free software; you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by

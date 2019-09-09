@@ -40,12 +40,7 @@ BUGS
 - Functionality is very basic.
 
 
-AUTHOR
-------
-
-dCage 
-
 COPYRIGHT
 ------
 
-Copyright (c) 2019 dCage
+Copyright (c) 2019 DC Slagel
