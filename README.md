@@ -6,38 +6,54 @@ parseqif - basic QIF parser in R
 SYNOPSIS
 --------
 
-`parseqif -f` *.qif
+`parse_qif(qif_file)`
 
 DESCRIPTION
 -----------
-Caution: This is very beta software!
+Caution: This is beta software!
 
-`parseqif` currently reads in a basic qif formatted file.  It parses the
+`parse_qif()` currently reads in a basic qif formatted file.  It parses the
 account type.  Then it parses each of the records and adds them to a `df`
-dataframe.  Finally it displays the summary stats for the amounts column.
+dataframe.  Finally it displays the summary stats for the amounts column
+and returns the dataframe.
 
-Parsed data example is included in qif_data_with_headers.csv
+Parsed data example is included in extdata/qif_data_with_headers.csv
 
-OPTIONS
--------
+COMPILE, INSTALL AND RUN
+------------------------
 
-`-f` [qif file to parse]
+```bash
+git clone https://github.com/dcslagel/parser-qif-r    
+cd parse-qif-r    
+    
+r    
+[r-prompt]>library(devtools)    
+    
+[r-prompt]>devtools::build()    
+[r-prompt]>devtools::install()    
+[r-prompt]>library(parser.qif.r)    
+[r-prompt]>myfile = system.file("extdata", "example-01.qif", package="parser.qif.r")    
+[r-prompt]>x = parse_qif(myfile)    
+[r-prompt]>x
+```
 
-COMPILE AND RUN
----------------
+UNINSTALL
+---------
 
-`cd parse-qif-r/src`  
-`make clean`
-`make`  
-`./parse-qif-r -f example-02.qif`  
+```bash
+cd parse-qif-r    
 
-`r`
-`r>new_df <- load("qif_data_with_headers.csv")
+r    
+[r-prompt]>library(devtools)    
+[r-prompt]>devtools::uninstall()    
+```
 
 BUGS
 ----
 
-- Functionality is very basic.
+- Functionality is very basic.   
+- Report bugs at:    
+  https://github.com/dcslagel/parser-qif-r/issues
 
 
 COPYRIGHT

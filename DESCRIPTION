@@ -1,0 +1,20 @@
+Package: parser.qif.r
+Version: 0.0.1
+Date: 2019-11-30
+Title: Parser-Qif-R
+Description: A tool to parse qif formatted files. 
+Author: DC Slagel <dcs@mailworks.org>
+Authors@R: c( 
+    person("DC",
+           "Slagel",
+           role = c("aut", "cre", "cph"),
+           email = "dcs@mailworks.org"
+           )
+    )
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/dcslagel/parser-qif-r
+BugReports: https://github.com/dcslagel/parser-qif-r/issues
+RoxygenNote: 7.0.1
+
